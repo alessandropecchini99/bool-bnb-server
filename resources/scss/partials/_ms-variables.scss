@@ -1,0 +1,53 @@
+/*****************************************
+    TYPOGRAPHY
+*****************************************/
+$font-family-sans-serif: "Nunito", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+/*****************************************
+    COLORS
+*****************************************/
+$ms-body-bg: #fafafa;
+$ms-color-dark: #1e1e1e;
+$ms-color-blue: #485ba1;
+$ms-color-purple: #9153a9;
+$ms-color-light: #fafafa;
+$ms-color-danger: #d20000;
+
+/*****************************************
+    EFFECTS
+*****************************************/
+$ms-box-shadow-s: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+$ms-box-shadow-m: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+$ms-box-shadow-l: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+
+/*****************************************
+    ANIMATIONS AND TRANSITIONS
+*****************************************/
+$ms-link-transition-s: 0.3s;
+$ms-link-transition-m: 0.6s;
+$ms-link-transition-l: 0.9s;
+
+/*****************************************
+    LAYOUTS
+*****************************************/
+$ms-border-radius-s: 10px;
+$ms-border-radius-m: 15px;
+$ms-border-radius-l: 20px;
+
+$ms-scale-s: 1.05;
+
+/*****************************************
+    UI BUTTONS
+*****************************************/
+$ms-btn-border-s: 10px;
+$ms-btn-padding: 5px 15px;
+
+/*****************************************
+    BREAKPOINTS
+*****************************************/
+$xl-breakpoint: 1400px; // Large screen breakpoint
+$lg-breakpoint: 1200px; // Large screen breakpoint
+$md-breakpoint: 766px; // Medium screen breakpoint
+$sm-breakpoint: 576px; // Small screen breakpoint

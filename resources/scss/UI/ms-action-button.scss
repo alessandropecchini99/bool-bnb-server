@@ -1,0 +1,51 @@
+@use "../partials/ms-variables" as *;
+
+.ms-action-button {
+    outline: none;
+    border: 0;
+    border-radius: $ms-btn-border-s;
+    padding: $ms-btn-padding;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
+    transition: $ms-link-transition-s;
+    width: 100%; // Default to 100% width
+
+    &.purple {
+        background-color: $ms-color-purple;
+        color: $ms-color-light;
+    }
+
+    &.blue {
+        background-color: $ms-color-blue;
+        color: $ms-color-light;
+    }
+
+    &.danger {
+        background-color: $ms-color-danger;
+        color: $ms-color-light;
+    }
+
+    &:hover {
+        scale: 1.05;
+    }
+
+    & > i:before {
+        display: flex;
+    }
+
+    @media (min-width: #{$lg-breakpoint}) {
+        width: 75%; // width on large screens
+    }
+
+    @media (min-width: #{$md-breakpoint}) and (max-width: #{$lg-breakpoint - 1}) {
+        width: 100%; // width on medium screens
+    }
+
+    @media (max-width: #{$md-breakpoint - 1}) {
+        width: 90%; // width on small screens
+    }
+
+}

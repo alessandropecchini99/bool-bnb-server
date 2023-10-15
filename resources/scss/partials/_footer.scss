@@ -1,0 +1,27 @@
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(230, 230, 230);
+}
+
+.footer .myContainer {
+    width: 80%;
+    height: 100%;
+    margin-inline: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.myContainer .img {
+    height: 30px;
+}
+
+.myContainer .img img {
+    height: 110%;
+}
+
+.info p {
+    margin: 0;
+}

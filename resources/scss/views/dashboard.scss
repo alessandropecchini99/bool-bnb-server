@@ -1,0 +1,35 @@
+.ms-dashboard {
+    width: 75%;
+}
+
+.ms-dash-btn {
+    width: 50%;
+}
+
+@media only screen and (max-width: 930px) {
+    .ms-dashboard {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .ms-dashboard {
+        h4 {
+            display: none;
+        }
+        .ms-dash-btn {
+            margin-top: 2em;
+            width: 250px;
+            flex-direction: column;
+            gap: 1.5em;
+        }
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .ms-dashboard {
+        .ms-dash-btn {
+            width: 180px;
+        }
+    }
+}

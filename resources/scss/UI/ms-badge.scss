@@ -1,0 +1,14 @@
+@use "../partials/ms-variables" as *;
+
+.ms-badge {
+    padding: $ms-btn-padding;
+    border-radius: $ms-btn-border-s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &.green {
+        background-color: #004f02;
+        color: white;
+    }
+}
